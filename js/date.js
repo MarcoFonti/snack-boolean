@@ -31,8 +31,10 @@ const arrayZuchinis =
 1- CREO ARRAY DI 10 OGGETTI
 2- USO IL METODO REDUCE PER SEPARARE LE DIMISIONI DELLE ZUCCHINE
 3- CALCOLO CON IL REDUCE IL PESO DEI DUE GRUPPI
-3- STAMPO
+4- STAMPO
 */
+
+/*
 
 // ARRAY DI 10 OGETTI
 const arrayZuchinis = 
@@ -48,4 +50,21 @@ const arrayZuchinis =
     { variety: 'Zucchina Mini', weight: 90, length: 15 },
     { variety: 'Zucchina Trombetta', weight: 180, length: 10 }
 ];
+
+*/
+
+// ! SCALETTA NACK 3
+/*
+1- CREO FUNZIONE
+2- USO IL METODO I METODI SPLIT REVERSE E JOIN
+3- STAMPO
+*/
+
+// FUNZIONE
+const functionInvers = (str) => {
+    // METODI
+    const strInvers = str.split('').reverse().join('');
+    
+    return strInvers
+};
 

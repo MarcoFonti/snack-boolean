@@ -24,9 +24,10 @@ console.log('PESO TOTALE: ' + arrayWeight);
 1- CREO ARRAY DI 10 OGGETTI
 2- USO IL METODO REDUCE PER SEPARARE LE DIMISIONI DELLE ZUCCHINE
 3- CALCOLO CON IL REDUCE IL PESO DEI DUE GRUPPI
-3- STAMPO
+4- STAMPO
 */
 
+/*
 // CREO NUOVO ARRAY DI OGETTI PER SEPARARE LE DUE LUNGHEZZE
 const arrayLenght = arrayZuchinis.reduce((acc, element) => {
     if(element.length <= 15) {
@@ -59,3 +60,18 @@ const arraySuperior = arrayLenght.superior.reduce((acc, element) => {
 }, 0)
 
 console.log('PESO ZUCCHINE SUPERIORE A 15CM: ' + arraySuperior);
+
+*/
+
+// ! SCALETTA NACK 3
+/*
+1- CREO FUNZIONE
+2- USO IL METODO I METODI SPLIT, REVERSE E JOIN
+3- STAMPO
+*/
+
+// METTO LA FUNZIONE IN UNA VARIABILE
+const hello = functionInvers('Ciao')
+
+// STAMPO
+console.log(hello);
