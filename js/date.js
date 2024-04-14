@@ -7,10 +7,10 @@ console.log('JS DATI OK');
 2- USO IL METODO REDUCE PER CALCOLARE LE ZUCCHINE
 3- STAMPO
 */
-/*
 
-// ARRAY DI 10 OGETTI
-const arrayZuchinis = 
+
+/* CREO ARRAY DI OGGETTI */
+const arrayZuchini = 
 [
     { variety: 'Zucchina Verde', weight: 150, length: 20 },
     { variety: 'Zucchina Gialla', weight: 120, length: 18 },
@@ -24,7 +24,6 @@ const arrayZuchinis =
     { variety: 'Zucchina Trombetta', weight: 180, length: 28 }
 ];
 
-*/
 
 // ! SCALETTA NACK 2
 /*
@@ -34,9 +33,8 @@ const arrayZuchinis =
 4- STAMPO
 */
 
-/*
 
-// ARRAY DI 10 OGETTI
+/* CREO ARRAY DI OGGETTI */
 const arrayZuchinis = 
 [
     { variety: 'Zucchina Verde', weight: 150, length: 9 },
@@ -51,7 +49,6 @@ const arrayZuchinis =
     { variety: 'Zucchina Trombetta', weight: 180, length: 10 }
 ];
 
-*/
 
 // ! SCALETTA NACK 3
 /*
@@ -60,11 +57,17 @@ const arrayZuchinis =
 3- STAMPO
 */
 
-// FUNZIONE
+
+/* CREO UNA FUNZIONE A CUI MANDO COME ARGOMENTO LA PAROLA CIAO */
 const functionInvers = (str) => {
-    // METODI
+    
+
+    /* CREO UNA VARIBILE A CUI ASSEGNO LA PAROLA CIAO MA INVERITTA (OAIC) */
     const strInvers = str.split('').reverse().join('');
     
+
+    /* RESTITUISCO LA VARIBILE */
     return strInvers
+    
 };
 
